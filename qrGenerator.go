@@ -6,5 +6,9 @@ import(
 )
 
 func main(){
-	fmt.PrintLn("Input string: ")
+	var qrInput string
+	fmt.Println("Input QR code string: ")
+	fmt.Scanln(&qrInput)
+
+	fmt.Println(qrInput)
 }
